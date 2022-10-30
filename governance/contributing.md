@@ -16,7 +16,7 @@ DMTCP supports the commonly used OFED API for InfiniBand, as well as its integra
 
 ## Code of Conduct
 
-We believe that teams are most sucessful when they operate and interact in a safe environment where individuals are encouraged to be themselves.  We operate our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.  To support this we have adopted the Contributor Covenant https://www.contributor-covenant.org code of conduct which you can find our specifics [here](../governance/CODE_OF_CONDUCT.mdcode-of-conduct.md).
+We believe that teams are most sucessful when they operate and interact in a safe environment where individuals are encouraged to be themselves.  We operate our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.  To support this we have adopted the Contributor Covenant https://www.contributor-covenant.org code of conduct which you can find our specifics [here](../governance/CODE_OF_CONDUCT.md).
 
 ## License
 
