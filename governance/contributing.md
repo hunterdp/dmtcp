@@ -16,11 +16,11 @@ DMTCP supports the commonly used OFED API for InfiniBand, as well as its integra
 
 ## Code of Conduct
 
-We believe that teams are most sucessful when they operate and interact in a safe environment where individuals are encouraged to be themselves.  We operate our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.  To support this we have adopted the Contributor Covenant https://www.contributor-covenant.org code of conduct which you can find our specifics [here](code-of-conduct.md).
+We believe that teams are most sucessful when they operate and interact in a safe environment where individuals are encouraged to be themselves.  We operate our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.  To support this we have adopted the Contributor Covenant https://www.contributor-covenant.org code of conduct which you can find our specifics [here](../governance/CODE_OF_CONDUCT.mdcode-of-conduct.md).
 
 ## License
 
-The Software developed by The Project is released under the [Community License](https://github.com/dmtcp/LICENSE.md) and is developed openly and hosted in public GitHub repositories under the [DMTCP GitHub organization](https://github.com/dmtcp).  The license is focused on balancing the intent of what it means to be an open source project while limiting the commerical explotation of the project via Cloud Service Providers whom often offer a SaaS version without contributing back to the project.  It is not meant to limit the personal use of or embedding of DMTCP into a product.
+The Software developed by The Project is released under the [Community License](./governance/../license.md) and is developed openly and hosted in public GitHub repositories under the [DMTCP GitHub organization](https://github.com/dmtcp).  The license is focused on balancing the intent of what it means to be an open source project while limiting the commerical explotation of the project via Cloud Service Providers whom often offer a SaaS version without contributing back to the project.  It is not meant to limit the personal use of or embedding of DMTCP into a product.
 
 
 ## How to Install 
