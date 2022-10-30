@@ -1,6 +1,6 @@
 # Contributor License Agreement 
 
-# *** DRAFT ***
+You can get a pdf version [here](contributor-license-agreement.pdf)
 
 Thank you for your interest in The DMTCP Project (the "Project"). To clarify the intellectual property license granted with Contributions from any person or entity, the Project must have on file a signed Contributor License Agreement ("CLA") from each Contributor, indicating agreement with the license terms below. This agreement is for your protection as a Contributor as well as the protection of the Project and its users. It does not change your rights to use your own Contributions for any other purpose.  Please complete and sign this Agreement, and then email a pdf copy to secretary@dmtcp.org only (do not copy any other persons or lists).
 
