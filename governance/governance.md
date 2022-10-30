@@ -1,5 +1,5 @@
 # Governance of the DMTCP Project
-The official version of this documentis contained in The Project Governance Repository at: [https://github.com/dmtcp/governance](https://github.com/dmtcp/governance)
+The official version of this documentis contained in The Project Governance Repository at: [https://github.com/dmtcp/governance](../governance.md)
 
 ## Governance
 
@@ -53,7 +53,7 @@ Software Subprojects in the DMTCP community are official areas of focus and effo
 
 ## Changing the Governance Documents
 
-Changes to the governance documents are submitted via a GitHub pull request to The Project's governance documents GitHub repository at [https://github.com/dmtcp/governance](https://github.com/dmtcp/governance).  There are two phases to the process:
+Changes to the governance documents are submitted via a GitHub pull request to The Project's governance documents GitHub repository at [https://github.com/dmtcp/governance](../governance).  There are two phases to the process:
 
 - *The discussion phase* begins when the person first opens a pull-request. During this time, *the pull-request must be in a draft state*. The pull request is refined in response to community comment and review by the Council, with the goal being consensus in the Council.  The pull request author may *call a vote* when they believe enough feedback and iteration has occurred. This is triggered by moving the pull request from the *draft state* to an *active state*. This triggers the voting phase. 
 - *The voting phase* begins when the PR enters an active state. The proposed changes in the pull request are frozen and may not be substantively modified after voting has begun. During the voting phase, the Steering Council votes on whether the changes are ratified, and the pull request merged (accepting the proposed changes) or that the pull request be closed without merging (rejecting the proposed changes).
