@@ -2,9 +2,17 @@
 
 # *** DRAFT ***
 
-THe DMTCP project thanks you for investing your time in contributing to the DMTCP project.  We welcome your expertise and enthusiasm,  The project needs more than programmers to continue its adoption and development.  You can see some areas below for ideas of where assistance is needed, but please do not limit yourself to these areas.  Explore the open pull requests, test out the project on a different operating system, or even an different ISA if that is your desire.   
+The DMTCP project thanks you for investing your time in contributing to the DMTCP project.  We welcome your expertise and enthusiasm,  The project needs more than programmers to continue its adoption and development.  You can see some areas below for ideas of where assistance is needed, but please do not limit yourself to these areas.  Explore the open pull requests, test out the project on a different operating system, or even an different ISA if that is your desire.   
 
 ## Getting Started
+There are a lot of ways you can contribute:
+
+- Contributing new code
+- Fixing bugs, improving documentation, and other maintenance work
+- Reviewing open pull requests
+- Triaging issues
+- Working on the DMTCP Hoe-To and FAQs
+- Answering questions on the mailing lists.
 
 ## Overview
 
@@ -22,36 +30,65 @@ We believe that teams are most sucessful when they operate and interact in a saf
 
 The Software developed by The Project is released under the [Community License](./governance/../license.md) and is developed openly and hosted in public GitHub repositories under the [DMTCP GitHub organization](https://github.com/dmtcp).  The license is focused on balancing the intent of what it means to be an open source project while limiting the commerical explotation of the project via Cloud Service Providers whom often offer a SaaS version without contributing back to the project.  It is not meant to limit the personal use of or embedding of DMTCP into a product.
 
+## Contributing to the Project
 
-## How to Install 
+We ask that contributors sign a [Contributors License Agreement (CLA)](contributor-license-agreement.md) or a [Developer's Certificate of Origin (DCO)](developer_certificate.md).  For most contributors, the DCO is the preferred option and for institutions a CLA is recommended.  Here are our [contributor guidelines](contributing.md) 
 
-To install DMTCP, please review the [Installation Guide](../INSTALL.md)
+## Getting Started 
 
-## Reporting Bugs
+*NB: May want to move this into its own document.*
+
+The first step is to retrieve the source code of the project.  The following is not meant to be a lesson on git and github, but a simple start.  For futher git and github usage see the relevant documentation.
+
+### Setup Local Fork
+
+- [Install git](https://git-scm.com/downloads)
+
+- Setup min git information
+  
+        git config --global user.email you@yourdomain.example.com
+        git config --global user.name "Your Name Comes Here"
+
+- Fork the DMTCP Repository
+
+- Clone your Fork locally
+
+        git clone git@github.com:{usename}/dmtcp.git dmtcp
+        cd dmtcp
+        git remote add dmtcp-main https://github.com/dmtcp/dmtcp.git
+
+- Create a branch (should we have a convention?)
+
+        git checkout -b new-branch 
+
+- Make changes and push to your own fork
+
+        git add modified_file
+        git commit
+
+        # push the branch to your own Github repo
+        git push origin my-new-feature
+
+### Pull Requests
+
+- When ready create a pull request with the following information
+
+## How to Report a Bug
+
+- First look though exisiting Issues to ensure it is not already reported
+- 
 
 ## Suggesting an Enhancement
 
 ## Your First Code Contribution
 
-## Pull Requests
 
 ## Styleguides
 
 ## Git Commit Messages
 
-## Documentation Styleguide
-
 ## **Project Contributors**
 Here is a list of the current Contributors to the DMTCP repository:
 
 [https://github.com/dmtcp/dmtcp/graphs/contributors](https://github.com/dmtcp/dmtcp/graphs/contributors)
-
-## Contributing to the Project
-
-We ask that contributors sign a [Contributors License Agreement (CLA)](contributor-license-agreement.md) or a [Developer's Certificate of Origin (DCO)](developer_certificate.md).  For most contributors, the DCO is the preferred option and for institutions a CLA is recommended.  Here are our [contributor guidelines](contributing.md) 
-
-## Distinguished Contributors
-
-The Distinguished Contributors are a group of people that have contributed to the sucess of the project over the years by making substantial and sustained contributions in any area of activity (software development, governance, community engagement, events, etc.). As a way of thanking these members, we created a list [Distinguished Contributors document](distinguished_contributors.md) as our way of thanking them. 
-
 
