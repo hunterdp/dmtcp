@@ -40,38 +40,99 @@ We ask that contributors sign a [Contributors License Agreement (CLA)](contribut
 
 The first step is to retrieve the source code of the project.  The following is not meant to be a lesson on git and github, but a simple start.  For futher git and github usage see the relevant documentation.
 
-### Setup Local Fork
+## Setup Local Development
 
-- [Install git](https://git-scm.com/downloads)
+The steps below are meant as a basic setup for contributing bug fixes, feature enhancements, testing, etc.  They are not meant to be a git primer.  For that we recommend reviewing the [git](https://git-scm.com) and/or the documentation for [github](https://docs.github.com/).  Note that the steps below assume that you have already setup a githib account.
 
-- Setup min git information
-  
-        git config --global user.email you@yourdomain.example.com
-        git config --global user.name "Your Name Comes Here"
+1. Install [git](https://git-scm.com/downloads)
 
-- Fork the DMTCP Repository
+1. Setup some simple git information
 
-- Clone your Fork locally
+    ```
+    $git config --global user.email user@domain.com
+    $git config --global user.name "Name"
+    ```
 
-        git clone git@github.com:{usename}/dmtcp.git dmtcp
-        cd dmtcp
-        git remote add dmtcp-main https://github.com/dmtcp/dmtcp.git
+1. Fork the DMTCP Repository
 
-- Create a branch (should we have a convention?)
+   - Log into your github account and navigate to the [DMTCP repository](https://github.com/dmtcp/dmtcp)
+   - Click on the **Fork ** in the top corner of the page 
+   - Fill in the information on the owner and repository name and add a description.
+   - It is recommended to check the box to only copy the main branch only.
+   - Click on the Create Fork button
 
-        git checkout -b new-branch 
+1. Clone your Fork locally
 
-- Make changes and push to your own fork
+    ```
+    $git clone git@github.com:{usename}/dmtcp.git dmtcp
+    $cd dmtcp
+    $git remote add upstream https://github.com/dmtcp/dmtcp.git
+    ```
 
-        git add modified_file
-        git commit
+1. Create a branch
 
-        # push the branch to your own Github repo
-        git push origin my-new-feature
+    We recommend creating a new branch to add a feature and working on that branch.  
+
+    ```
+    # Checkout the main branch and ensure the latest changes are applied
+    $git checkout main
+    $git rebase upstream/main
+
+    # Create and check out your new branch 
+    $git checkout -b my-new-branch
+    ```
+
+2. Make changes and push to your own fork
+
+    ```
+    # See what files have been modified and/or added
+    $git status
+
+    # If desired, review any files that have been modified 
+    $git diff modified_file
+
+    # Add any new files into the staging area.  To keep things tidy, only add files that have related and complete changes. 
+    # Leave files with unfinished changes for later commits.
+    $git add modified_file(s)
+
+    # Commit the staged changes to your local repository.  For simple commits, use the -m 'Comments on commit' if desired.  
+    # Otherwise you configured editor will come up and ensure that you adequately describe the changes and additions.  
+    $git commit -m 'your comments on the change' modified_file(s)
+
+    # push the branch to your own Github repo
+    $git push origin my-new-branch
+    ```
+
+## Commit Messages
+Commit messages should be clear and follow a few basic rules.  The following are some guidelines.  The objective is to ensure someone else can understand what and why you committed something.
+
+```
+ENH: add functionality X to component Y.
+
+The first line of the commit message starts with a capitalized acronym from the options listed below that idetifies the type of commit. This is followed by a blank line and then further explantion of the commit.  For readability, comment ould be no l75 characters.  If the commit is in response to an Issue or other request, this should be indicated by refering to it, e.g. "See Issue #1234" or "This finishes feature requested #x from the roadmap.".  
+
+The comment should be self sufficient and the reader should not have to refer to the code to understand the commit.  
+```
+
+Below are a few standard acronyms to start the commit message with are:
+
+```
+API: Modifications or addition of an API change
+BLD: change related to build process for DMTCP 
+BUG: bug fix
+DEP: deprecate something, or remove a deprecated object
+DEV: development tool or utility
+DOC: documentation
+ENH: enhancement
+MAINT: maintenance commit (refactoring, typos, etc.)
+REV: revert an earlier commit
+TST: addition or modification of tests
+REL: related to releasing DMTCP, aka a patch, minor or major version.
+```
 
 ### Pull Requests
 
-- When ready create a pull request with the following information
+- When ready create a pull request (PR) with the following information
 
 ## How to Report a Bug
 
