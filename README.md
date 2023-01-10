@@ -7,7 +7,7 @@ Among the applications supported by DMTCP are MPI (various implementations), Ope
 
 DMTCP supports the commonly used OFED API for InfiniBand, as well as its integration with various implementations of MPI, and resource managers (e.g., SLURM).
 
-THe DMTCP Project is always looking for assistance in support the project.  
+The DMTCP Project is always looking for assistance in support the project.  Please see our [How to Contrinbut Guide](./governance/contributing.md) on how to setup your environement to start contributing.  To find out what areas we are looking for assitance with please recview the [following page](./governanre/contributing_areas.md) 
 
 # Resources
 
