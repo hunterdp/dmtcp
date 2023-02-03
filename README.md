@@ -23,3 +23,15 @@ The DMTCP Project is always looking for assistance in support the project.  Plea
 
 * For the latest version of DMTCP (both official release and git), see:
 [http://dmtcp.sourceforge.net/downloads.html](http://dmtcp.sourceforge.net/downloads.html).
+
+# Citing DMTCP
+If you use DMTCP in your research please use the following BibTeX entry:
+```BibTex
+@Misc{Yadan2019Hydra,
+  author =       {Kapil Arya, Gene Cooperman, Rohan Garg, et al.},
+  title =        {DMTCP - DMTCP: Distributed MultiThreaded CheckPointing},
+  howpublished = {Github},
+  year =         {2014},
+  url =          {https://github.com/dmtcp/dmtcp}
+}
+```
