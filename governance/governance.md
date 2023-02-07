@@ -45,7 +45,7 @@ All members of the Council shall disclose to the rest of the Council any conflic
 * Any member of the Executive Council may recommend an additional member who will present the nominee and rationale for adding the member to the Council.   New members will be added by a majority vote of existing Council members.  The removal of a Council member will follow the same process.  The Chairperson retains the veto vote for these matters.
 * Council members can voluntarily resign at anytime and will be listed on the project website, acknowledging the period during which they were active in the Council.  
 * The Council reserves the right to eject current Members, other than the Chairperson, if they are deemed to be actively harmful to the project’s well-being, and attempts at communication and conflict resolution have failed. 
-* When/if the Chairperson decides to resign, he/she decide if a new Chairperson will be elected by majorty vote of the Council, or the position of Chairperson will no longer exist.
+* When/if the Chairperson decides to resign, he/she decide if a new Chairperson will be elected by majority vote of the Council, or the position of Chairperson will no longer exist.
 
 ## Subprojects
 
