@@ -27,7 +27,7 @@ The DMTCP Project is always looking for assistance in support the project.  Plea
 # Citing DMTCP
 If you use DMTCP in your research please use the following BibTeX entry:
 ```BibTex
-@Misc{Yadan2019Hydra,
+@Misc{AryaCooperman2014DMTCP,
   author =       {Kapil Arya, Gene Cooperman, Rohan Garg, et al.},
   title =        {DMTCP - DMTCP: Distributed MultiThreaded CheckPointing},
   howpublished = {Github},
