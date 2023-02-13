@@ -19,7 +19,7 @@ The Project's Chairperson is currently [Gene Cooperman](mailto:g.cooperman@north
 - Rohan Garg (@rohgarg)
 - Twinkle Jain (@JainTwinkle)
 - Yue Li (@yuelimv)
-- Dahong Li (@dahongli)
+- Charles Fan (@)
 
 ## Decision-making and voting procedures
 
