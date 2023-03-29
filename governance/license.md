@@ -6,7 +6,9 @@ This Community License 1.0 (the “Agreement”) sets forth the terms on which M
 
 1 LICENSE GRANT AND CONDITIONS.
 
-1.1 License. Subject to the terms and conditions of this Agreement, Memverge hereby grants to Licensee a non-exclusive, royalty-free, worldwide, non-transferable, non-sublicensable license during the term of this Agreement to: (a) use the Software; (b) prepare modifications and derivative works of the Software; (c) distribute the Software (including without limitation in source code or object code form); and (d) reproduce copies of the Software (the “License”). Licensee is not granted the right to, and Licensee shall not, exercise the License for an Excluded Purpose. For purposes of this Agreement, “Excluded Purpose” means making available any software-as-a-service, platform-as-a-service, infrastructure-as-a-service or other similar online service or services that provide the Software.
+1.1 License. Subject to the terms and conditions of this Agreement, Memverge hereby grants to Licensee a non-exclusive, royalty-free, worldwide, non-transferable, non-sublicensable license during the term of this Agreement to: (a) use the Software; (b) prepare modifications and derivative works of the Software; (c) distribute the Software (including without limitation in source code or object code form); and (d) reproduce copies of the Software (the “License”). Licensee is not granted the right to, and Licensee shall not, exercise the License for an Excluded Purpose. For purposes of this Agreement, “Excluded Purpose” means making available any software-as-a-service, platform-as-a-service, infrastructure-as-a-service or other similar online service or services that provides the Software.
+
+Effective on the Change Date, or the fifth anniversary of the first publicly available distribution of a specific version of the Licensed Work under this License, whichever comes first, the Licensor hereby grants you rights under the terms of the Apache V2.0 Software License, and the rights granted in the paragraph above terminate.
 
 1.2 Conditions. In consideration of the License, Licensee’s distribution of the Software is subject to the following conditions:
 

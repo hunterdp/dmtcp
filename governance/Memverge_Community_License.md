@@ -12,7 +12,6 @@
 > Software.
 >
 >  
-
 1.  **LICENSE GRANT AND CONDITIONS.**
 
 > **1.1 License**. Subject to Licensee's compliance with all of the
@@ -26,7 +25,13 @@
 > copies of the Software, but in each instance, only for internal
 > research and development and never for production or in a production
 > environment (the "**License**").
->
+> 
+> Effective on the Change Date, or the fifth anniversary of the first 
+> publicly available distribution of a specific version of the Licensed 
+> Work under this License, whichever comes first, the Licensor hereby 
+> grants you rights under the terms of the Change License, and the rights 
+> granted in the paragraph above terminate.
+> 
 > **1.2 Conditions**. Without limiting any other condition or
 > requirement, Licensee's distribution of the Software is subject to the
 > following conditions ("Conditions"):
